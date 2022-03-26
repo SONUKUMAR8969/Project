@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Images/signup1.jpg);
+    background-size:cover;
+}
+
+.form{
+    text-align: center;
+    border: 2px solid black;
+    margin: 40px 650px;
+    border-radius: 10px;
+    background-color: azure;
+    position: relative;
+    left: 450px;
+    margin-top: 250px;
+    display: inline-block;
+    background: none;
+    width: 500px;
+}
+input[type=text]{
+    padding: 12px 20px;   
+    margin: 8px 0;
+    border-radius: 20px;
+}
+.btn{
+    background-color: aqua;
+    cursor: pointer;
+}
+.submit{
+    
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 8px 0;
+    
+    
+}
+.reset{
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 8px 0; 
+    
+}
+button{
+    font-size: 12px;
+    background-color: rgb(11, 1, 63);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    border: 2px solid black;
+    width: 80px;
+
+}
+
+
+
