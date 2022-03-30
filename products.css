@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    display: inline-block;
+    width: 350px;
+    padding-bottom: 30%;
+    text-align: center;
+    
+}
+.container:hover::before{
+    width: 350px;
+    
+}
+.container:hover::after{
+    width: 350px;
+    padding-bottom: 30%;
+}
+img{
+    width: 250px;
+}
